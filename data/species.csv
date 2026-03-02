@@ -1,0 +1,292 @@
+Regions du monde,Noms vernaculaires local ou francais,Nom vernaculaire anglais,combien,poid commun lb,Ou/quand,Technique de peche,photo,nom scientifique (especes),famille,ordre
+1. Amerique du Nord,dorade grise,"Porgy, Scup",500+,1-2,"Sound - 2206, palangrotte","canne, dandinette, clam, ver ou sprearing",reelle,Stenotomus chrysops,sparidae,spariformes
+2,fluke,"Fluke, summer flounder",200+,2-4,Sound July 2006,"canne, au fond, au sprearing (eperlan) ou clam",reelle,Paralichthys dentatus,Paralichthyidae,pleuronectiforme
+3,Bar raye,Stripped bass,100+,5-30,Sound 2006 - peche de fond,"canne, au fond, au frein, ou derive, appat morceau de bunker",reelle,Morone saxatillis,moronidae,moroniformes
+4,Rouget grondin,Searobin,300+,3,Long Island Sound 2002/2012,"canne, dandinette, clam, ver ou sprearing",reelle,Prionotus Carolinus,triglidae,scorpaeniforme
+5,Tassergal,Bluefish,500+,10-12,Sound - fall 2002 - peche de fond,"canne, au fond, au frein, appat morceau de bunker",reelle,Pomatomus saltatrix,pomatomidae,perciforme
+6,blackfish,Blackfish,100+,3-5,Long Island Sound Fall 2007,"dandinette dans le Sound, au crabe",reelle,Tautoga Onitis,labridae,labriformes
+7,black seabass,Black seabass,10+,0.5-1,Long Island Sound 2002/2012,"canne, dandinette, clam, ver ou sprearing",reelle,Centropristis striata,serranidae,perciforme
+8,"lotte, baudroie",Monkfish,3+,0.5-1,Long Island Sound 2002/2012,"canne, dandinette, clam, ver ou sprearing",web,Lophius americanus,lophiidae,Lophiiformes
+9,bunker,Bunker,50+,1-2,Long Island Sound 2002/2012,"au ""snagging"" au trident en surface",reelle,Brevoortia tyrannus,clupeidae,clupeiformes
+10,Limule,Horshoe crab,5+,3-6,Sound ete 2008,"canne, au fond, au frein, appat morceau de bunker",reelle,Limulus polyphemus,limulidae,Xiphosurida
+11,Smooth dogfish shark,Smooth dogfish shark,3,3,Long Island Sound 2002/2012,"canne, au fond, au frein, appat morceau de bunker",reelle,Mustelis canis,triakidae,Carcharhiniformes
+12,Spiny dogfish,Spiny dogfish,3,3,Sound - June 2004 - palangrotte,"canne, au fond, au frein, appat morceau de bunker",reelle,Squalus acanthias,squalidae,Squaliformes
+13,Chesapeake blue crab,Chesapeake blue crab,5,0.4,Long Island Sound 2002/2012,"epuisette, sous les pontons a Orienta",web,Callinectes sapidus,portunidae,decapoda
+14,Jonah crab,Jonah crab,5,0.4,Long Island Sound 2002/2012,"canne, au fond, au frein, appat morceau de bunker",web,Cancer borealis,cancridae,decapoda
+15,mantis shrimp,mantis shrimp,3,0.2,Long Island Sound 2002/2012,"canne, au fond, au frein, appat morceau de bunker",web,Squilla empusa,squillidae,stomatopoda
+16,spider crab,spider crab,3,0.4,Long Island Sound 2002/2012,"canne, au fond, au frein, appat morceau de bunker",web,Libinia emarginata,epialtidae,decapoda
+17,Asian shore crab,Asian shore crab,200+,0.1,Long Island Sound 2002/2012,ramassse a mer basse,reelle,Hemigrapsus sanguineus,varunidae,decapoda
+18,winter flounder,winter flounder,2,1-2,Long Island Sound 2002/2012,"canne, dandinette, clam, ver ou sprearing",reelle,Pseudopleuronectes americanus,pleuronectidae,pleuronectiforme
+19,"black grouper, captiva","black grouper, captiva",1,1-2,Floride - Captiva - Noel 2007 - palangrotte du quai,dandinette du bord du ponton,reelle,Mycteroperca bonaci,serranidae,perciforme
+20,"Mangrove snapper, Grey snapper","Mangrove snapper, Grey snapper",3,1-2,Floride - Captiva - Noel 2007 - palangrotte du quai,dandinette du bord du ponton,reelle,Lutjanus griseus,lutjanidae,perciforme
+21,"Sheepshead, captiva","Sheepshead, captiva",5,2-3,Floride - Captiva - Noel 2007 - palangrotte du quai,dandinette du bord du ponton,reelle,Archosargus probatocephalus,sparidae,spariformes
+22,poisson bulle tachete Captiva,Least puffer - capiva,1,<1,Floride - Captiva - Noel 2007 - palangrotte du quai,dandinette du bord du ponton,reelle,Sphoeroides parvus,tetraodontidae,tetraodontiformes
+23,Slippery dick,Slippery dick,1,<1,Floride - Captiva - Noel 2007 - palangrotte du quai,dandinette du bord du ponton,reelle,Halichoeres bivittatus,labridae,labriformes
+24,Colas,Yellowtail snapper,3,<1,Mexico - Plage de Cancun du ponton - Janvier 2017,a la canne a la crevette,reelle,Ocyurus chrysurus,lutjanidae,perciforme
+25,dorade cryphene - mahi-mahi,Mahi-mahi,2,8,Mexico - Cabo San Lucas - nov 1997,a la traine,web,Coryphaena hippurus,coryphaenidae,carangiforme
+26,espadon voilier,Indo-pacific sailfish,3,40,Mexique - Accapulco-1er Janvier 1998,peche au large a la traine,reelle,Istiophorus platypterus,istiophoridae,istiophoriforme
+1. Guyane mer,requin soyeux,Silky shark,1,2-5,en bateau alarge de la digue des roches,ligne de fond a merou,web,Carcharhinus falciformis,carcharhinidae,Carcharhiniformes
+2,"Raie long nez, Pastenague long nez",American stingray,5,10-40,"Pointe des Roches - Avril 2011, annees 70, pimpoum","canne aux roches, mulet",reelle,Hypanus americanus,dasyatidae,myliobatiformes
+3,congre sabre - congre de Guyane,Guinean pike conger,3,1-2,Pointe des Roches - Avril 2011 et juillet 2018,canne au fond et epervier,reelle,cynoponticus savanna,muraenesocides,anguilliforme
+4,murene verte,Green moray,5+,2-8,grosse murene aux Iles du Salut - Juillet 2017,"canne de fond, vivanneau en appat, au fond devant les Iles",reelle,Gymnothorax funebris,muraenidae,anguilliforme
+5,"murene brune, porcelaine",Goldentail morray eel,2+,1,murene a la digue des bagnards - Janvier 2023,"canne de fond, crevette ou parrassi",reelle,Gymnothorax miliaris,muraenidae,anguilliforme
+6,"Lotte, crapaud, baudroie guyanaise",Pacuma toadfish,5+,2-5,Pointe des Roches - Juillet 2017,"canne, du bord, au mulet ou crevette ou machoiran",reelle,Batrachoides surinamensis,batrachoididae,batrachoidiforme
+7,"Poisson Papier,. Sardine",,50+,<0.5,dans les mares des roches,epervier,web,Odontognathus mucronatus,clupeidae,clupeiformes
+7bis,Anchois de Cayenne,,10+,0-1,montsinery 2025,epervier,reelle,Anchoviella Cayennensis,engraulidae,clupeiformes
+8,Anchois grande aile,,50+,<0.5,dans les mares des roches 2025,epervier,reelle,Pterengraulis atherinoides,engraulidae,clupeiformes
+9,gros yeux - anableps anableps,Four-eyed fish,10+,<0.5,"Kourou - Avril 2015, un peu partout",epervier,reelle,Anableps anableps,anablepidae,Cyprinodontiformes
+10,gros yeux - anableps microlepis,Four-eyed fish,10+,<0.5,"Kourou, partout, 70's",epervier,reelle,Anableps microlepis,anablepidae,Cyprinodontiformes
+11,tarpon - palika,Tarpon,5+,30-150,"Iles du Salut - Avril 2011 - en surface, large st joseph","grosse canne, en surface au flotteur, sardine entiere",reelle,Megalops Atlanticus,megalopidae,elopiforme
+12,carangue crevalle,Crevalle jack,25+,2-6,"Iles du Salut, annees 70",a la traine aux iles du Salut,web,Caranx Hippos,carangidae,carangiforme
+13,"poisson assiette, poisson miroir",Lookdown jack,100+,<0.5,"pointe des Roches, par centaines",epervier,reelle,Selene Vomer,carangidae,carangiforme
+14,Sapater,,100+,<0.5,"pointe des Roches, par centaines",epervier,web,Chloroscombrus chrysurus,carangidae,carangiforme
+14bis,Barbure,barbudo,1,0-1,mares pimpoum,epervier,reelle,polydactylus oligodon,polynemidae,perciforme
+15,"sauteur, soter",Castin leatherjacket,100+,<0.5,"pointe des roches, tout le temps, par dizaines",petits a l'epervier,web,Oligoplites Saliens,carangidae,carangiforme
+16,Loubine riviere,Fat snook,50+,1-4,en bord de rochers,epervier,web,Centropomus parallelus,centropomidae,perciforme
+17,Portugaise,,50+,<0.5,"Pointe des Roches - Avril 2015, Juillet 2017",epervier,reelle,Chaetodipterus faber,ephippidae,moroniformes
+18,blanche gros yaya,,100+,<0.5,"pointe des Roches, par centaines",epervier,reelle,Diapterus rhombeus,gerreidae,perciforme
+19,"croupia Lippu, black margate",,20+,1-4,iles du salut - juillet 2017,dandinette au fond,reelle,Anisotremus surinamensis,haemulidae,perciforme
+20,"Rouget, vivanneau chien, ti rouget, sarde dent de chien",,25+,1-4,"iles du salut - juillet 2017, + annees 70","canne de fond, dandinette, crevette, sardine",reelle,Lutjanus jocu,lutjanidae,perciforme
+21,vivanneau rouge ou raye,Red snapper,5+,1-4,"pont de montsibnery, 1972",au fil au bord du vieux pont montsinery,web,lutjanus synagris,lutjanidae,perciforme
+22,vivaneau sarde grise,,5+,1-4,ponton de montsinery - 2018,du ponton de montsinery,reelle,lutjanus purpureus,lutjanidae,perciforme
+23,mulet,Mulet,500+,<0.3,partout dans les mares en bord de cote,epervier,reelle,Mugil cephalus Linnaeus,mugilidae,mugiliforme
+23bis,mulet lebranche,lebranche mulet,100+,0-2,partout dans les mares en bord de cote,epervier,reelle,Mugil liza,mugilidae,mugiliforme
+24,Parassi,,500+,<0.3,"pim poum, roches",epervier,web,Mugil incilis Hancock,mugilidae,mugiliforme
+25,loubine jaune,Swordspine snook,3+,1-5,Ponton de Montsinery - July 2015,"canne de riviere, au fond, a la crevette",reelle,Centropomus ensiferus,centropomidae,perciforme
+26,"courbine, courbine juvenile",whitemouth croaker,5+,1-5,"pimpoum, 1989. juvenile 2025","au tramail, juvenile a l'epervier",reelle,Micropogonias furnieri,sciaenidae,Acanthuriformes
+26bis,courbine maroto,,1,0-1,pdr 2025,epervier,reelle,Ctenosciaena gracilicirrhus,sciaenidae,Acanthuriformes
+27,acoupa blanc,,200+,1-5,embouchure kourou,canne,web,Cynoscion steindachneri,sciaenidae,Acanthuriformes
+27b,Acoupa chasseur,king weakfish,10+,1-5,embouchure kourou,canne,reelle,Macrodon ancylodon,sciaenidae,Acanthuriformes
+28,"acoupa rouge, rouj",weakfish,200+,4-10,Pointe des Roches - Avril 2011 +annees 70,"canne, du bord, au mulet (parrassi)",reelle,Cynoscion Acoupa,sciaenidae,Acanthuriformes
+28bis,acoupa tonquiche,,1,0-2,pdr 2025,epervier,reelle,cynoscion similis,sciaenidae,Acanthuriformes
+29,acoupa riviere,,50+,1-5,"pointe des roches, dont 2017","epervier, par floppee de petits",web,Bairdiella ronchus,sciaenidae,Acanthuriformes
+30,acoupa canal,,10+,1-5,"Pointe des Roches - Avril 2018, annees 70 roches","canne, du bord, au mulet (parrassi)",reelle,Cynoscion microlepidotus,sciaenidae,Acanthuriformes
+31,"merou - loche geant, goliath, merou geant",Giant grouper,10+,90,St Joseph - Avril 2011 - digue des Roches annees 70,"grosse canne, petit machoiran en appat, gros hamecon, au fond, annees 70",reelle,Epinephelus itajara,serranidae,perciforme
+31bis,carpe rouge juvenile,cubera snapper juvenile,1,1,montsinery,epervier,reelle,lutjanus cyanopterus,lutjanidae,perciforme
+32,Sole guyanaise,,5+,1,pointe des Roches,au tramail dans les roches ou petit a l'epervier,web,Achirus achirus,achiridae,pleuronectiforme
+32bis,"Fausse-limande sombre, cardine",,1,1,montsinery,epervier,reelle,Syacium papillosum,Paralichthyidae,pleuronectiforme
+33,"machoiron couman (F), Kouman-kouman (C )(blanc machoire arondie)",,25+,1-5,"Les Roches - Avril 2011, roches janvier 2023",canne de fond a la digue des roches - crevette ou mulet,reelle,Arius couma,arridae,siluriformes
+34,machoiran bressou (F) - tit'gueule/ti jol jonn (C ),,25+,1-3,Pointe des Roches - Avril 2011,epervier,reelle,Arius quadrascutis,arridae,siluriformes
+35,"machoiran grondé (F), Thomas sea catfish, gronde (C )",,50+,1-5,"Pointe des Roches - Avril 2011, 2015, les iles 2023",canne de fond a la digue des rocches - crevette ou mulet,reelle,Notarius Grandicassis,arridae,siluriformes
+36,machoiran blanc,,100+,2-7,"Pointe des Roches - 2018, 70's, jan 2023 Iles","canne, du bord, au mulet (parrassi) ou pervier petits",reelle,Hexanematichthys proops,arridae,siluriformes
+37,"Machoiron Passany (F), passani (C )",,20+,5-12,Camp La Canopee - lignes de nuit - juillet 2015,"belee de surface en riviere, accrochee aux arbres, a la carpe",reelle,Arius passany / Ariidae,arridae,siluriformes
+37bis,Machoiron Pemecou,,20+,0-3,pointe des roches fevrier 2025,epervier,reelle,Hexanematichthys herzbergii,arridae,siluriformes
+38,"Michelot Blanc, machoiron mamango (F)",,20+,1-2,Pointe des roiches - janvier 2023,"a la canne du bord, au mulet",reelle,Cathorops spixii,arridae,siluriformes
+39,"Machoiran coco (F), Koko Jandamn (C), bagre, Koko seacatfish",,50+,1-8,"Pointe des Roches, juillet 2017",epervier,reelle,Bagre Bagre,arridae,siluriformes
+40,"Machoiron jaune (F), machoiran-jonn (C )",,100+,1-10,"digue des roches, partout, les iles 2023","canne, hamecon 4, parassi",reelle,Arius parkeri,arridae,siluriformes
+41,"Coco-fil de mer, blanc jaune rouge",,25+,1-2,Coco-soda embouchure Kourou,"petite ligne , crevette",web,Pseudauchenipterus nodosus,auchenipteridae,siluriformes
+42,"Goret, poisson-chat cuirasse, pleco",,10+,1-2,Pointe des Roches - Avril 2011,canne de fond a la digue des rocches - crevette ou mulet,reelle,hypostomus plecostomus (ventromaculatusou Watwata),loricariidae,siluriformes
+42bis,"Cron cron, Aspredo aspredo",,10+,0-1,Pointe des Roches - Avril 2011,epervier,web,aspreado aspredo,aspredinidae,siluriformes
+43,"poisson-bulle - gros ventre tachete, compere corotuche, puffer, bubulle tigre",,100+,0.5,Pointe des Roches - juillet 2017,epervier,reelle,Sphoeroides testudineus,tetraodontidae,tetraodontiformes
+44,"poisson-bulle (gros ventre) a bandes, puffer",,100+,0.5,"Pointe des roches, mares, a rayures - Avril 2011",epervier,reelle,colomesus psittacus,tetraodontidae,tetraodontiformes
+45,"crabe des sables, crabe fantome",ghost crab,10+,0.2,plage de Kourou de toujours,epervier,reelle,Ocypode quadrata,ocypodidae,decapoda
+46,crabe bleus pointus de l'atlantique,Atlantic blue crab,50+,0.2,plage de Kourou de toujours,epervier ou crochet dans les rochers,reelle,callinectes sapidus,portunidae,decapoda
+46bis,crabe nageur rougeatre de Guyane,,20+,0.2,Pointe des Roches,a l'epervier a la pointe des roches,reelle,callinectes bocourti,portunidae,decapoda
+47,crevette seabob,Seabob shrimp,50+,0.1,"pointe des Roches, tres frequentes",epervier,web,Xiphopenaeus kroyeri,penaeidae,decapoda
+47bis,"crevette guyanaise, koulouri",,10+,0.1,"pointe des Roches, tres frequentes",epervier,reelle,Macrobrachium amazonicum,Palaemonidae,decapoda
+48,crevette brune,Brown shrimp,50+,0.1,"pointe des Roches, tres frequentes",epervier,web,Penaeus subtilis,penaeidae,decapoda
+1. Guyane riviere,Yaya - rayure jaune,,1,<0.5,Saut Takari Tante 2018,"petite ligne rive, sur fromage ou pain",reelle,Astyanax Meunieri,characidae,characiforme
+2,"Yaya commun - Kourou, Sinnamary, Macouria",,5+,<0.5,crique canceler - crique soucourou janvier 2023,petite ligne eperlan sur canne telescopique,reelle,Astyanax bimaculatus,characidae,characiforme
+3,"Rhamdia quelen, bagre",,1,2,Macouria - Juillet 2017 - du pont sur la Macouria,"canne legere de rivere, tres petit hamecon",reelle,Rhamdia quelen,heptapteridae,siluriformes
+4,"Coulan, ou Koulan barre , Yarrow",,5+,1-2,Macouria - Juillet 2017 - du pont sur la Macouria,"canne legere de rivere, tres petit hamecon",reelle,Hoplerythrinus unitaeniatus,erythrinidae,characiforme
+5,aimara,,4+,6-18,"Takari-Tante - juillet 2017, 2018","riviere, Sinnamry, au rapala au jet, en surface, ou belee de rive",reelle,Hoplias aimara,erythrinidae,characiforme
+6,Patagaye,,4+,1-3,piste au sud de Macouria,"petite ligne de riviere, petit hamecon",reelle,Hoplias malabaricus,erythrinidae,characiforme
+7,"wakou, carpe de st-jean, leporinus trifasciatus-3 queues",,1,1,St Jean du Maroni - juillet 2015,"ligne de riviere, crevette, au fond, petit hamecon",reelle,Leporinus trifasciatus,anostomidae,characiforme
+8,Carpe du Sinnamary,,5+,<1,Pont de Sinnamary - janvier 2023,petite ligne eperlan sur canne telescopique,reelle,Leporinus Friderici,characidae,characiforme
+8bis,"Carpe a bandes sinnamary, fasciatus",,2,1,Pont de Sinnamary - feb 2025,"petite ligne de riviere, petit hamecon",reelle,Leporinus fasciatus,characidae,characiforme
+9,"karp-rouj (C ), carpe tachetee rouge du Kourou, leporinius de Grant (F)",,5+,<1,carbet Francois - degrad pk 15 - juillet 2023,petite ligne eperlan sur canne telescopique,reelle,Leporinus Granti,characidae,characiforme
+10,"karp-rouj (C ), carpe rouge du Kourou",,5+,<1,crique du PK18 - juillet 2023,petite ligne eperlan sur canne telescopique,reelle,Leporinus melanostictus,characidae,characiforme
+11,"karp-ble (C ), carpe du Kourou, leporinus de Le Bail (F)",,3+,<1,crique du PK18 - juillet 2023,petite ligne eperlan sur canne telescopique,reelle,Leporinus Lebaili,characidae,characiforme
+12,weti fisa,,2+,<1,"takari-Tante, juillet 2017","petite canne a eperlan, hamecon n18, fromage",reelle,Moenkhausia grandisquamis (ou georgiae),characidae,characiforme
+13,Koumarou / Pacou,,1,2-3,"Takari-Tante, Saut Dalles - juillet 2017, 2018","canne de riviere, au fond, au yaya",reelle,Myleus rhomboidalis,serrasalmidae,characiforme
+14,"Pakousin, Pasina tikolokem",,1,1,Saut Takari Tante 2017,"petite ligne rive, sur fromage ou pain",reelle,Myloplus rubripinnis,serrasalmidae,characiforme
+15,yaya poptella brevispina,,5+,<1,carbet Francois - degrad pk 15 - juillet 2023,"petite canne a eperlan, hamecon n18, fromage",reelle,poptella brevispina,characidae,characiforme
+16,"autre genre de Yaya, rayure blanche",,1,<1,takari-tante 2018,"petite ligne rive, sur fromage ou pain",reelle,pas sur,characidae,characiforme
+18,"piranha noir, Pilen",,1,2,"Maripasoula, juillet 2017","canne de riviere, au fond, au poulet ou crevette",reelle,serrasalmus rhombeus,serrasalmidae,characiforme
+18bis,pinaha tachete,speckled piranha,1,2,St Jean du Maroni - Feb 2025,"canne de riviere, au fond, au poulet ou crevette",reelle,serrasalmus spilopleura,serrasalmidae,characiforme
+19,Anguille tété / South american lungfish/Pilayi,,1,1,route nationale RN1 Kourou - Macouria,"Anguille echouee sur la route, desorientee",reelle,Lepidosiren paradoxa,lepidosirenidae,ceratodontiformes
+20,Acoupa riviere,,25+,2-4,partout en riviere ou roches,petite canne,web,Plagioscion squamosissimus,sciaenidae,Acanthuriformes
+21,"krobia, crique morpio ou carpe ou tilapia",,4+,<1,crique morpio -July 2015,"petite ligne de riviere, petit hamecon",reelle,krobi aff. Guianensis,cichlidae,cichliformes
+22,chocolate loricariid,,1,<1,"carbet flottant de Kaw, July 2015","petite ligne de main, Aurelien",reelle,Loricaria cataphracta,loricariidae,siluriformes
+23,Bagre pimedole - machoiran riviere Kaloueri,,1,<1,piste au sud de Macouria,"canne legere de rivere, tres petit hamecon",reelle,Pimelodus maculatus (Lacepede 1803) - possiblement blochii,pimelodidae,siluriformes
+24,"poson-pakira (C ), Liku (Wa), pimelodus orne",,2,0-3,Saut Dalles et pont Sinnamary,"canne de riviere, au fond, au yaya",reelle,Pimelodus ornatus (kner 1858),pimelodidae,siluriformes
+25,"Diaky - petit machoiran riviere, bablaroch (C ), pimelodella huppe (F)",,1,<1,sinnamry - takari-tante 2017,"canne legere de rivere, tres petit hamecon",reelle,Pimelodella cristata ( ou geryi),heptapteridae,siluriformes
+26,coco-soda de riviere montsinery 2023,,4+,<1,pont de montsinery - janvier 2023,"canne legere de rivere, tres petit hamecon",reelle,"Pseudauchenipterus nodosus (Bloch, 1794)",auchenipteridae,siluriformes
+27,"Kanfran, poucici (C ), poisson chat pseudo vaillantii (possiblement pimelodus eigenmanni - Macai)",,1+,<1,carbet Francois route du degard pk18 2023,"canne legere de rivere, tres petit hamecon",reelle,"Brachyplatystoma vaillantii (Valenciennes, 1840)",pimelodidae,siluriformes
+29,sea catfish Macouria,Rhamdia quelen,1,<1,Macouria - Juillet 2018 - piste au sud de Macouria,"canne legere de rivere, tres petit hamecon",reelle,Rhamdia quelen,heptapteridae,siluriformes
+30,genre de couman-coumna yeux bleus,,1,2,bois chaudat jan 2023,"petite ligne rive, sur fromage ou pain",reelle,cathorops melanopus,arridae,siluriformes
+31,pimelodus - montsinery,,1,1,pont de montsinery - janvier 2023,"canne legere de rivere, tres petit hamecon",reelle,pimelodus montserratensis,pimelodidae,siluriformes
+1. France - Normandie - lacs - etangs,lancon,,50+,0.1,"Havre, Ecalgrain","epuisette, fouine, petite canne a eperlan",web,Hyperoplus lanceolatus,ammodytidae,trachiniformes
+2,anguille du Valnotte,Fresh water eel,5+,0.2-2,dans le Notte et dans le Havre; a la Cale Marina,"en brouillant l'eau en riviere, a l'epuisette dans le Havre",reelle,anguilla anguilla,anguillidae,anguilliforme
+3,Orphie,,10+,0.2-0.4,"le long de la cote du Cotentin, Jersey, Ecrehous",a la traine a la mitraillette et paravane,web,Belone belone,belonidae,beloniformes
+4,blennie gattorugine-cabot,Tompot blenny,10+,0.2,Ecalgrain - Paques 2004,a l'epuisette dans toutes les mares,reelle,parablennius gattorugine,blenniidae,blenniiformes
+5,Motelle commune (loche),Three beared rockling,1,0.1,Barneville sous le chateau - Jan 2025,"rocaille, a pied, au crochet a Barneville",reelle,Gaidropsarus vulgaris,blenniidae,blenniiformes
+6,"tourteau, dormeur, clos-poing",Dorset crab,300+,0.4-3,Auderville - Barneville,"Rocaille, a pied, au crochet a Barneville ou Ecalgrain",reelle,Cancer pagurus,cancridae,decapoda
+7,Tourteau rose,Toothed rock crab,1,0.3,Barneville sous le chateau - Jan 2025,"Rocaille, a pied, au crochet a Barneville ou Ecalgrain",reelle,Cancer bellianus,cancridae,decapoda
+8,chinchard,,5+,2-4,Auderville - mars 2013 - paillot et tramail,au tramail,reelle,Trachurus tracharus,carangidae,carangiforme
+9,"crabe vert, crabe enrage",European green crab,200+,0.3,"Barneville, Ecalgrain","Rocaille, a pied, au crochet a Barneville ou Ecalgrain",reelle,carcinus maenas,carcinidae,decapoda
+10,Perche-soleil ou Crapet soleil,Pumpkinseed,1,0.1,Perche-soleil ou Crapet soleil,peche au filet chinois,reelle,lepomis gibbosus,centrarchidae,centrarchiformes
+11,congre,Conger,2+,5-16,"Ecalgrain, chasse sous-marine",au fusil sous-marin dans le Buttes,web,Conger conger,congridae,anguilliforme
+12,crevette grise,,100+,<0.5,havre de Carteret,a l'epuisette,web,Crangon crangon,crangonidae,decapoda
+13,Carassin commun,,2,0.5,Roanne - July 2023,"petite ligne eperlan, grain de mais",reelle,Carassius carassius,cyprinidae,cypriniformes
+14,Rotengle,,3,0.2,Roanne - July 2023,"petite ligne eperlan, grain de mais",reelle,Scardinius erythrophthalmus,cyprinidae,cypriniformes
+15,gardon,,5,0.2,Roanne - July 2023,"petite ligne eperlan, grain de mais",reelle,Rutilus rutilus,cyprinidae,cypriniformes
+16,Ecrevisse de mer,Black squat lobster,2,0.1,Barneville sous le chateau - Jan 2025,"rocaille, a pied, au crochet a Barneville",reelle,Galathea squamifera,Galatheidae,decapoda
+17,vieille commune,ballan wrasse,10+,0.5-2,Auderville - annees 70 - paillot et belee de fond,"paillot, tramail et belee de fond",web,Labrus Bergylta,labridae,labriformes
+18,"Vieille - petite vieille - crenilabre commun, crenilabre melops",Wrasse,25+,1-2,"Auderville annees 70, 80, Ecrehous 1989","a la ligne, au ver, crevette ou encornet",reelle,Symphodus melops,labridae,labriformes
+19,"araignee, crabe de seyne",Spider crab,25+,0.4-3,photo au marche - jul 2019,"Rocaille, a pied, au crochet a Barneville",web,Maja squinado,majidae,decapoda
+20,moussette - araignee juvenile,Juvenile spidercrab,100+,0.4-2,"Barneville, Ecalgrain","Rocaille, a pied, au crochet a Barneville ou Ecalgrain",web,Maja squinado juvenile,majidae,decapoda
+21,colin (merlu commun); petit colin,,50+,1-5,"le long de la cote du Cotentin, Ecrehous, Ecalgrain","a la dandinette en mer, ou paillot, belee de fond ou tramail",reelle,Merluccius merluccius,merlucciidae,gadiforme
+22,bar,seabass,25+,1-4,"Auderville - leurre, paillot et tramail, ou a la traine","paillot, tramail, ou a la traine en mer, paravane et mitraillette",reelle,Dicentrarchus labrax,moronidae,moroniformes
+23,mulet,Mulet,100+,0.2-1,"Havre de Carteret, un en photo a recuperer",a la ligne a eperlan hamecon n18/20,web,Mugil spp,mugilidae,mugiliforme
+24,homard Breton,Lobster,25+,0.5-2.5,photo de July 2017 - non peche - July 2019,"Rocaille, a pied, au crochet a Barneville",web,Homarus grammarus,nephropidae,decapoda
+25,petit poulpe - Aurelien,Octopus,2+,0.4,Ecalgrain,"Rocaille, a pied, au crochet a Barneville ou Ecalgrain",web,Octopus vulgaris,octopodidae,octopoda
+26,eperlan,"Spearing, European smelt",500+,0.1,"Havre de Carteret, 1973-2024",a la ligne a eperlan hamecon n18/20,reelle,Osmerus eperlanus,osmeridae,osmeriformes
+27,Bouquet - crevette - demoiselle de Cherbourg,,100+,0.1,"Havre, Ecalgrain",a l'epuisette,reelle,Palaemon serratus,Palaemonidae,decapoda
+28,Perche juvenile,,1,0.5,Perche pechee a l'etang Rpbert a Choussy,"petite ligne eperlan, grain de mais",reelle,perca fluviatilis,percidae,perciforme
+29,"plie, carrelet",Plaice,50+,1-2,"Havre de Carteret, carteret, Brighton, Ecalgrain",A la fouine dans le Havre ou la mare Ronde. A la ligne a Brighton,reelle,Pleuronectes platessa,pleuronectidae,pleuronectiforme
+30,"etrille, anglette",,300+,0.2,"Barneville, Ecalgrain","Rocaille, a pied, au crochet a Barneville ou Ecalgrain",reelle,Necora puber,polybiidae,decapoda
+31,maquereau,Mackerel,500+,0.3-1,"le long de la cote du Cotentin, Jersey, Ecrehous",a la traine a la mitraillette et paravane,reelle,Scomber scombrus,scombridae,scombriformes
+32,barbue,Hake,2+,1-2,Marre ronde - Carteret,a la fouine peche a pied,web,Scophtalmus rhombus,scophthalmidae,pleuronectiforme
+33,turbot,Turbot,4+,1-3,Auderville - mars 2013 - paillot et tramail,"au paillot, appat ver ou encornet",reelle,Scophthalmus maximus ou psetta maxima,scophthalmidae,pleuronectiforme
+34,"Petite roussette, saumonette","lesser-spotted dogfish, sandy dogfish, catshark",10+,0.5-1,paillot a Hatainville / brighton / Ecrehous,"au paillot, appat ver ou encornet, ligne",reelle,"Scyliorhinus canicula, Linnaeus, 1758",scyliorhinidae,Carcharhiniformes
+35,Sole,Sole,25+,1-2,"Havre de Carteret, ligne de la plage, mare Ronde",A la fouine a la mare Ronde,web,Solea solea,soleidae,pleuronectiforme
+36,Sole de roche a Ecalgrain,Rock sole,1,1-2,peche dans la caverne dans les Buttes,A la pique du crochet dans la caverne,web,Microchirus variegatus,soleidae,pleuronectiforme
+37,Breme - daurade grise,,50+,1-2,Auderville - annees 70 - paillot et belee de fond,"paillot, tramail et belee de fond",web,Spondyliosoma cantharus,sparidae,spariformes
+1. France-mediterranee,"fiou pelan, eriphie",,1,<1,carqueiranne,au fusil sous-marin,reelle,Eriphia verrucosa spinifrons,eriphiidae,decapoda
+2,Labre male celibataire,,2,<1,"bandol 2023, corse","a la canne, crevette, hamecon 4 ou 6",reelle,Symphodus tinca,labridae,labriformes
+3,"Labre, tanche de mer, crenilabre paon",,1,<1,bandol 2023,"a la canne, crevette, hamecon 4 ou 6, crevette",reelle,Symphodus tinca,labridae,labriformes
+4,Labre vert,,1,<1,carqueiranne,au fusil sous-marin,reelle,labrus viridis,labridae,labriformes
+5,Roucaou noir - ballan wrasse,,1,1,st jean cap ferrat,"a la canne, crevette, hamecon 4 ou 6",reelle,labrus bergylta,labridae,labriformes
+6,girelle royale (male),,1,<1,La croix valmer 2002,au fusil sous-marin,reelle,Coris julis,labridae,labriformes
+7,girelle commune (femelle),,2,<1,"La croix-Valmer 2023, Porquerolles, Calvi",au fusil sous-marin,reelle,Coris julis,labridae,labriformes
+8,Muge dore - mulet dore,,1,<1,corse Aurelien et Charles,a la canne,reelle,Chelon auratus (ex-liza aurata),mugilidae,mugiliforme
+9,"rouget de roche , surmulet",,1,<1,corse Aurelien et Charles,a la canne,reelle,mullus surmuletus,mullidae,perciforme
+10,Serran sarran,,3,<1,bandol 2023,"a la canne, crevette, hamecon 4 ou 6",reelle,serranus cabrilla,serranidae,perciforme
+11,Serran ecriture - perche de mer,,2,<1,"La croix valmer, gn et aurelien","a la canne, crevette, hamecon 4 ou 6",reelle,serranus scriba,serranidae,perciforme
+12,"Canthe, tanude - dorade grise - black seabream",,1,1,"X-Valmer 2002, Aurelien Charles",au fusil sous-marin,reelle,Spondyliosoma cantharus,sparidae,spariformes
+13,Sar - white seabream,,3+,1-2,st jean cap ferrat,"a la canne, crevette, hamecon 4 ou 6",reelle,Diplodus sargus sargus,sparidae,spariformes
+14,Sar pointu,,1,<1,bandol 2023,"a la canne, crevette",reelle,Diplodus puntazzo,sparidae,spariformes
+15,"Blade, oblade - saddle seabream",,1,1-2,st jean cap ferrat,"a la canne, crevette",reelle,Oblada melanura,sparidae,spariformes
+16,Daurade royale,,1,1-2,st jean cap ferrat,"a la canne, crevette",reelle,"Sparus aurata, Linnaeus 1758",sparidae,spariformes
+17,saupe,,10+,1,"bandol 2023, La croix-Valmer, Porquerolles, Calvi","a la canne, au fusil sous-marin",reelle,Sarpa salpa,sparidae,spariformes
+1. Grenadines,crabe honteux rugueux,Rough box crab,1,<1,Grenadines - dec 2011,en chasse sous-marine,reelle,calappa gallus,callapidae,decapoda
+2,Carangue gros-yeux,,4,4-7,Tobago Key - 24Dec 2011 - peche en lagon le soir,"canne de fond dans le lagon de Tobago Key, appat vif",reelle,Caranx latus,carangidae,carangiforme
+3,petite carangue rayee Grenadines,,3,<1,Bequie - Dec 2011 - palangrotte,a la petite canne de fond au port de Bequie,reelle,Carangoides ferdau,carangidae,carangiforme
+4,marlin bleu ou blanc st vincent 80 kilos,Blue marlin,1,175,Chenal entre St Vincent et St Lucie - Dec 2011 - traine,"a la traine au gros, 5 cannes, leurre poulpe, 45min",reelle,Kajikia,istiophoridae,istiophoriforme
+5,Serpentine ocellee,,1,2,St Vincent - Dec 2011 - chasse sous-marine,en chasse sous-marine,reelle,"Myrichthys ocellatus, Lesueur 1825",Ophichthidae,anguilliforme
+6,merou a caudale carree,,1,3,St Vincent - Dec 2011 - chasse sous-marine,a la petite canne de fond en baie de St Vincent,reelle,Plectropomus areolatus,serranidae,perciforme
+7,"baracuda Grenadines, (becune)",Great barracuda,1,3,Grenadines - Noel 2011 - traine en catamaran,"a la train au leurre, en catamaran",reelle,Sphyraena,sphyraenidae,istiophoriforme
+1. Antilles-st barts,murene verte,Green moray,2+,2-4,Shell beach,"canne de fond dans le lagon de Tobago Key, appat vif",web,"Gymnothorax funebris, Ranzani, 1840",muraenidae,anguilliforme
+2,poisson lezard,Lizard fish,5+,1,Lorient,"en chasse sous-marine, fusil ou lance hawaienne",web,"Synodus saurus, Linnaeus 1758",Synodontidae,aulopiforme
+2bis,"Poisson lezard, sand diver, Zanoli, Mabouya","Zabnoli, Mabouya",5+,1,Lorient,"en chasse sous-marine, fusil ou lance hawaienne",reelle,Synodus intermedius,Synodontidae,aulopiforme
+3,Genre d'orphie - aiguille crocodile,"Houndfish, needlefish",1,<1,shell beach aug 2023,"en chasse sous-marine, fusil ou lance hawaienne",reelle,Tylosurus crocodilus / Belonidae,belonidae,beloniformes
+4,"carangue grasse, carangue jaune",Yellow jack,5+,1,plage de salines - aout 2023,canne telescopique,reelle,"carangoides bartholomaei, cuvier 1833",carangidae,carangiforme
+5,carangue crevalle,Crevalle jack,20+,7-15,"Lorient - aout 2019, gros specimen","en chasse sous-marine, fusil ou lance hawaienne",reelle,"caranx hippos, Linnaeus 1766",carangidae,carangiforme
+6,carangue coubali,"Hardnose-blue runner, trevallies",20+,1-3,plage de salines - aout 2023,canne telescopique,reelle,Caranx Crysos,carangidae,carangiforme
+6bis,"carangue comade, carnague franche",Bar jack,10+,1-3,plage de salines - aout 2023,canne telescopique,reelle,Caranx ruber,carangidae,carangiforme
+7,Permit,Round Pompano,3+,4-5,"Shell beach - Aout 2011, Aout 2023","en chasse sous-marine, fusil ou lance hawaienne",reelle,"Trachinotus falcatus Linneaus, 1758",carangidae,carangiforme
+7bis,Palometa,Banner pompano,2+,4-5,"Salines - Avril 2025, appat sardine",surfcasting,reelle,Trachinotus goodei,carangidae,carangiforme
+7ter,Lookdown Trevally,Juvenile African Pompano,1,1-2,"Shell beach, avril 2025","petite ligne flotteur, appat poulet",reelle,Alectis ciliaris,carangidae,carangiforme
+8,seriole limon ou corronnee,Greater amberjack,2+,2-3,Lorient - Aout 2019,"en chasse sous-marine, fusil ou lance hawaienne",reelle,seriola dumerili,carangidae,carangiforme
+9,requin citron,Lemon shark,2+,7-10,"Salines, Aout 2023, boys","a la canne , appat peau de mahimahi",reelle,"Negaprion brevirostris, Poey 1868",carcharhinidae,Carcharhiniformes
+10,requin de recif a nez noir,Reef shark - blacknose,1+,6-8,Shell beach juin 2023,"a la canne, demi perroquet",reelle,carcharhinus acronotus,carcharhinidae,Carcharhiniformes
+10bis,requin nourrice,Nurse shark,1+,10,Shell beach Jul 2024,a la canne,reelle,Ginglymostoma cirratum (Bonnasterre 1788),Ginglymostomatidae,Orectolobiformes
+11,clipperton crab - Land crab,Clipperton crab,1+,<1,Deve,a la main,reelle,"Johngarthia planata, Stimpson 1860",gegarcinidae,decapoda
+11bis,crabe nageur brun,Spinyhand swimming crab,1+,2,Lorient juillet 2025,a la nasse+ epuisette,reelle,achelous (portunus) spinimanus,portunidae,decapoda
+12,crabe pince bleue,Atlantic blue crab,30+,<1,Sbh - Avril 2012 - plage de St Jean,"en apnee, pique, lasso",reelle,"Callinectes sapidus, Rathbun 1896",portunidae,decapoda
+12bis,Sally pied leger,Sally lightfoot crab,1,1,Gouverneur beach Mai 2025,en snorkelling,reelle,grapsus grapsus,grapsidae,decapoda
+13,"langouste bresilienne, Kriket",Brazilian spinny lobster,25+,1-3,Lorient - Aout 2019,"en chasse sous-marine, fusil ou lance hawaienne",reelle,Panulirus guttatus,palinuridae,decapoda
+14,"langouste royale, Roumar",Caribbean spinny lobster,25+,1-4,Sbh - Aout 2013,"en chasse sous-marine, fusil ou lance hawaienne",reelle,Panulirus argus,palinuridae,decapoda
+14bis,Bernard-l'ermite des caraibes,Carribean hermit crab,20+,<1,jardin aout 2025,en nettoyant le jardin,reelle,Coenobita clypeatus,coenobitidae,decapoda
+15,tarpon de Sbh (grantekay),Tarpon,1+,120,port de Gustavia,au surfcasting du bord du quai,reelle,Megalops Atlanticus,megalopidae,elopiforme
+16,Marignan - cardinal queue fine,longspine squirrelfish,50+,<1,Baie de Lorient,"en chasse sous-marine, fusil ou lance hawaienne",reelle,"holocentrus rufus, Walbaum 1792",holocentridae,holocentriformes
+17,Marignan - cardinal blanc - Kadinal blan,Rough squirrelfish,25+,<1,shell beach,"en chasse sous-marine, fusil ou lance hawaienne",reelle,"holocentrus adscensionis, Osbeck 1765",holocentridae,holocentriformes
+17bis,Marignan - cardinal longue epine,Longjaw squirrelfish,10+,<1,shell beach,"en chasse sous-marine, fusil ou lance hawaienne",reelle,Neoniphon marianus,holocentridae,holocentriformes
+17ter,"Mombins, Mouben",Blackbar soldierfish,10+,<1,shell beach,"en chasse sous-marine, fusil ou lance hawaienne",reelle,Myripristis jacobus,holocentridae,holocentriformes
+18,puddingwife wrasse - Halichoeres radiatus 2,Puddingwife wrasse,10+,<1,Ptit cul de sac aug 2023,canne lancer petite moyenne,reelle,"Halichoeres radiatus, Linnaeus 1758",labridae,labriformes
+19,slipery dick - SBH,Slippery dick,10+,<1,Ptit cul de sac aug 2023-2024-2025,canne lancer petite moyenne,reelle,"halichoeres bivittatus, Bloch 1791",labridae,labriformes
+20,"Girelle-paon a tete bleue, bluehead wrasse",Bluehead wrasse,1,<1,port de gustavia,petite canne legere,reelle,"thalassoma bifasciatum, Bloch 1791",labridae,labriformes
+20bis,Girelle nettoyeuse commune,Bkuestreak cleaner wrasse,5,<1,port de gustavia,nasse parapluie,reelle,Labroides dimidiatus,labridae,labriformes
+21,perroquet redband parrotfish,Redband parrotfish,50+,1-3,un peu partout,"en chasse sous-marine, fusil ou lance hawaienne",reelle,"sparisoma aurofrenatum, Valenciennes 1840",scaridae,labriformes
+22,Emerald Parrotfish Nicholsina,Emerald Parrotfish Nicholsina,10+,1-3,Christopher - Aout 2016 - petit culde sac 2023,"en chasse sous-marine, fusil ou lance hawaienne",reelle,"Nicholsina usta, Valenciennes 1840",scaridae,labriformes
+23,Redfin parrotfish,Redfin parrtofish,100+,1-3,Pointe Milou - Christopher - Aout 2016 - chasse,"en chasse sous-marine, fusil ou lance hawaienne",reelle,"Sparisoma rubripinne, Valenciennes 1840",scaridae,labriformes
+24,perroquet princesse,Princess parrotfish,10+,1-3,"Corrosol - aout 2019, shell beach juin 2023","en chasse sous-marine, fusil ou lance hawaienne",reelle,"Scarus taeniopterus, Lesson 1829",scaridae,labriformes
+25,perroquet feu tricolore,Stoplight parrotfish,100+,1-3,Lorient - Aout 2019,"en chasse sous-marine, fusil ou lance hawaienne",reelle,"sparisoma viride, Bonnaterre 1788",scaridae,labriformes
+27,Mulet blanc,White mullet,20+,<1,grand cul de sac,epervier grand cul de sac,reelle,"Mugil curema, Valenciennes 1836",mugilidae,mugiliforme
+28,raie pastenague des Antilles,Southern stingray,1,6-10,Lorient - Aout 2014 - chasse,"en chasse sous-marine, fusil ou lance hawaienne",reelle,Hypanus americanus,dasyatidae,myliobatiformes
+29,Calmar de récif des Caraïbes,Carribean reef squid,20+,<0.5,Shell beach - Aout 2013,"en chasse sous-marine, fusil ou lance hawaienne",reelle,"Sepioteuthis sepioidea, Blainville 1823",loliginidae,Myopsida
+30,pieuvre de recif caraibes,carribean reef octopus,1,1,Shell beach,"en chasse sous-marine, fusil ou lance hawaienne",web,"Octopus briareus, Robson 1929",octopodidae,octopoda
+31,poisson chirurgien bleu,Surgeonfish,2,1-3,Anse Marechal - Aout 2010,"en chasse sous-marine, fusil ou lance hawaienne",reelle,"Acanthurus coeruleus, Rafinesque 1810",acanthuridae,Acanthuriformes
+32,Blanche (En yellowfin tidewater mojarra),yellowfin tidewarer mojarra,1,<0.5,plage de salines - aout 2023,canne telescopique,reelle,Eucinostomus harengulus,gerreidae,perciforme
+33,gorette bleue (ou gorette catire),Bluestriped grunt,10+,1-3,Anse Marechal Aug10 - ptit culdesac 2023,"en chasse sous-marine, fusil ou lance hawaienne",reelle,"Haemulon sciurus, Shaw 1803",haemulidae,perciforme
+34,gorette jaune (French grunt),French grunt,10+,1-3,digue de Gustavia - Aout 2019,a la dandinette du bord,reelle,"Haemulon flavolineatum, desmarest 1823",haemulidae,perciforme
+34bis,gorette doree (Tomtate grunt),Tomtate grunt,3+,1,corrosol aug24,a la canne du bord,reelle,Haemulon aurolineatum,haemulidae,perciforme
+34ter,Gorette charbonnier,Caesar grunt,1,1,shell beach 2024,a la dandinette du bord,reelle,Haemulon carbonarium,haemulidae,perciforme
+35,"Lippu, black margate",Black margate,2+,1-2,Corrosol - aout 2019,"en chasse sous-marine, fusil ou lance hawaienne",reelle,"anisotremus surinamiensis, Bloch 1791",haemulidae,perciforme
+36,"Sarde blanche, white margate snapper",White margate snapper,3+,1-3,"Christopher bay, sbh","en chasse sous-marine, fusil ou lance hawaienne",reelle,lutjanus mahogoni,lutjanidae,perciforme
+37,Bermuda chubb - Agouti,Bermuda chubb,2+,2-4,Corrosol - aout 2019,"en chasse sous-marine, fusil ou lance hawaienne",reelle,"kyphosus sectratrix, Carolus Linnaeus 1758",Kyphosidae,perciforme
+37.bis,Mutton snapper,Mutton snapper,2,12,Corrosol - aout 2024,a la canne au gros de nuit,reelle,"Lutjanus analis, Cuvier 1828",lutjanidae,perciforme
+38,vivanneau jaune,schoolmaster snapper,1+,1-3,grand cul de sac - aout 2020,petite canne legere,reelle,Lutjanus apodus,lutjanidae,perciforme
+39,Sarde dents de chien,Dog snapper,1+,2-5,port de gustavia - aout 2023 Alexis,petite canne legere,reelle,"Lutjanus jocu, Bloch & Schneider 1801",lutjanidae,perciforme
+39bis,vivanneau gazou,Lane snapper,1+,<1,Plage de Lorient,petite canne legere,reelle,Lutjanus synagris,lutjanidae,perciforme
+40,"Colas, vivanneau a queue jaune",Yellowtail snapper,5+,1-2,port de gustavia,"dandinette, canne legere",reelle,"Ocyurus chrysurus, T.N. Gill, 1862",lutjanidae,perciforme
+41,sergeant major,"Coral fish, pilot fish",5+,<1,port de gustavia,petite canne legere,reelle,"abudefduf saxatillis, Linnaeus 1758",pomacentridae,subseries Ovalentaria
+41bis,demoiselle caraibes,dusky damselfish,1,<1,port de gustavia,nasse parapluie,reelle,Stegastes adustus,pomacentridae,subseries Ovalentaria
+42,poisson soleil - beauclaire,Glasseye snapper,10+,1-2,"Salines, shell beach","en chasse sous-marine, fusil ou lance hawaienne",reelle,"priacanthus cruentatus, Lacepede 1801",priacanthidae,perciforme
+43,bonite a ventre raye ou thon listao,Skipjack tuna,1+,4-7,Sbh - aout 2004 - peche a la traine,"a la traine au large de Gustavia, cote Caraibes",reelle,Katsuwonus pelamis,scombridae,scombriformes
+44,"merou - grande gueule, merou couronne",Red hind,50+,2-6,Pointe Milou - Christopher,"en chasse sous-marine, fusil ou lance hawaienne",reelle,"Epinephelus guttatus, Linnaeus 1758",serranidae,perciforme
+44bis,Merou - vieille de roche,Graysby,20+,2-4,"Salines, shell beach","en chasse sous-marine, fusil ou lance hawaienne",reelle,"Cephalopholis cruentata, Lacepede 1802",serranidae,perciforme
+45,"merou raye, de Nassau, merou raye",Nassau grouper,10+,2-4,Pointe Milou - Christopher - Janvier 2018 - chasse,"en chasse sous-marine, fusil ou lance hawaienne",reelle,Epinephelus striatus,serranidae,perciforme
+45bis,Merou a tache rouge,coral hind,1+,3,rocher en face de salines 2024,"en chasse sous-marine, fusil ou lance hawaienne",reelle,Cephalopholis miniata,serranidae,perciforme
+46,"Merou Waliwa, oualioua",Rock hind,5+,1-2,Ptit cul de sac aug 2023,"a la canne telescopique, crevette",reelle,Epinephelus adscensionis,serranidae,perciforme
+46bis,"Merou celeste , meru a points bleus",Coney,1,1,shell beach,"a la canne telescopique, crevette",reelle,Cephalopholis fulva,serranidae,perciforme
+47,carrelet paon,Peacock flounder,10+,1-2,Baie de Lorient,"en chasse sous-marine, fusil ou lance hawaienne",reelle,bothus lunatus,bothidae,pleuronectiforme
+49,poisson coffre Zinga tachete,Spotted trunfish,25+,<1,Lorient - Aout 2019,"en chasse sous-marine, fusil ou lance hawaienne",reelle,"Lactophrys bicaudalis, Linnaeus 1758",ostraciidae,tetraodontiformes
+50,poisson coffre - poisson vache a cornes,Honeycomb cowfish,25+,<1,Corrosol - aout 2019,"en chasse sous-marine, fusil ou lance hawaienne",reelle,"Acanthostracion polygonius, Poey 1876",ostraciidae,tetraodontiformes
+51,Girelle - clown wrasse juvenile,Juvenile clown wrasse,5+,<1,Shell beach,nasse parapluie,reelle,Halochoeres maculipinna,labridae,labriformes
+52,Girelle - clown wrasse intermediate phase,Intermediate clown wrasse,5+,<1,Shell beach,nasse parapluie,reelle,Halochoeres maculipinna,labridae,labriformes
+53,Girelle - labre a tete jaune - juvenile,Yellowhead wrasse,1,<1,Shell beach,nasse parapluie,reelle,Halochoeres garnoti,labridae,labriformes
+54,Poisson porc-epic,Spot-fin porcupinefish,1,10+,Corrosol aout 2024,"grosse canne, hamecon ferre",reelle,Diodon Hystrix,diodontidae,tetraodontiformes
+55,Baliste orange,orangeside triggerfish,1,6,"rocher au large de Salines, aout 2024",chasse sous-marine,reelle,sufflament verres,balistidae,tetraodontiformes
+1. Atlantique Est,Brochet,Pike of Sweden,1,3-5,Suede,A la ligne du bateau,reelle,Esox lucius,esocidae,esociforme
+2,marlin bleu - 130 kilos,Blue marlin,1,260,Senegal,peche au large a la traine,web,Makaira nigricans / istiophoridae,istiophoridae,istiophoriforme
+3,pievre commune casa,common octopus,2,1,Casablanca - Atlantic beach; porquerolles; corse,"a la rocaille a pied, avec un crochet",web,Octopus vulgaris,octopodidae,octopoda
+4,Perch of sweden,Swedish perch,1,2-4,Suede,A la ligne du bateau,reelle,Perca fluviatilis,percidae,perciforme
+5,Crabe royal du Kamtchatka,Red king crab,1,5,"Norvege - Kirkenes, Barents sea",,reelle,Paralithodes camtschaticus,lithodidae,decapoda
+6,pagre - pageot commun,Red porgy,1,2-4,Casablanca - Tahiti beach,a la canne lancer du bord,web,Pagrus pagrus,sparidae,spariformes
+7,dorade rose - pageot d'afrique,Red pandora,1,2-4,Casablanca - Tahiti beach,a la canne lancer du bord,web,Pagellus bellottii,sparidae,spariformes
+1. Pacifique-Mer de Chine,White trevally fish,white trevally fish,1,1-2,New Zeeland - Baie d'Auckland June2019-palangrotte 45m,"au leurre/rapala de fond , sans ferrer",reelle,Pseudocaranx dentex,carangidae,carangiforme
+2,yellowtail amberjack,yellowtail amberjack,1,1-2,New Zeeland - Baie d'Auckland June2019-palangrotte 45m,"au leurre/rapala de fond , sans ferrer",reelle,Seriola lalandi,carangidae,carangiforme
+3,Calmar indien,Vietnam squid,5+,<1,Viet-nam - Baie d'Halong - 25Dec 2013,A la turlutte (dandinette avec un leurre a pointe verticale),reelle,uroteuthis duvaucelii,Loliginidae,myopsida
+4,red scorpionfish,red scorpionfish,1,1,New Zeeland - Baie d'Auckland June2019-palangrotte 45m,"au leurre/rapala de fond , sans ferrer",reelle,Scorpaena scrofa,scorpaenidae,scorpaeniforme
+5,auckland snapper,Auckland snapper,10+,2-4,New Zeeland - Baie d'Auckland June2019-palangrotte 45m,"au leurre/rapala de fond , sans ferrer",reelle,Pagrus auratus,sparidae,spariformes
+6,Poisson-lapin brun,brown rabbitfish,1,<1,Viet-nam - Phu Quoc Island,"dandinette, canne legere, au calamar",reelle,siganus fuscescens,siganidae,Acanthuriformes
+1. Ocean Indien et asie du Sud-est,Balliste carene ou ligne blanche (nom vernac. Bouche),Blackbar triggerfish,1,2,maurice noel 2016 palangrotte corail 10-15m,a la palangrotte / dandinette - 10m,reelle,sufflamen bursa,balistidae,tetraodontiformes
+2,"carangue bleue, ou a nageoires bleues",Bluefin trevally,10,1,Rodrigues noel 2016 - traine au bord,a la traine autour de l'ile,reelle,Caranx melampygus,carangidae,carangiforme
+3,lionnette - ecureuil diademe,Crown squirrelfish,1,<1,maurice noel 2016 palangrotte corail 10-15m,a la palangrotte / dandinette - 10m,reelle,Sargocentron diadema,holocentridae,holocentriformes
+4,rasoir (ecureuil grandes machoires),Sabre squirrelfish,1,<1,maurice noel 2016 palangrotte corail 10-15m,a la palangrotte / dandinette - 10m,reelle,sargocentron spiniferum,holocentridae,holocentriformes
+5,lion (ecureuil a rayures jaunes),Yellowstriped squirrelfish,1,<1,maurice noel 2016 palangrotte corail 10-15m,a la palangrotte / dandinette - 10m,reelle,neoniphon aurolineatus,holocentridae,holocentriformes
+6,"rouget de roche, surmulet, capucin a longs barbillons",Longbarbel goatfish,1,<1,maurice noel 2016 palangrotte corail 10-15m,a la palangrotte / dandinette - 10m,reelle,Parupeneus macronemus,mullidae,perciforme
+7,thon Albacore jaune - 48 kilos,yellowfin tuna,1,105,maurice noel Mars 2024 (Aurelien),a la traine en haute mer,reelle,Thunnus albacares,scombridae,scombriformes
+8,Thon Germon jaune,Albacore tuna,1,10,maurice noel 2016 traine haute mer,a la traine en haute mer,reelle,Thunnus alalunga,scombridae,scombriformes
+9,bonite a ventre raye ou thon listao,Skipjack tuna,3,6-8,maurice noel 2016 traine haute mer,a la traine en haute mer,reelle,Katsuwonus pelamis,scombridae,scombriformes
+10,poisson lion (rascasse volante) ou pterois a antennes,Common lionfish,1,<1,maurice noel 2016 palangrotte corail 10-15m,a la palangrotte / dandinette - 10m,reelle,pterois miles,scorpaenidae,scorpaeniforme
+11,"vieille rouge (merou oriflamme), merou badeche, nasque",blacktip grouper,1,<1,maurice noel 2016 palangrotte corail 10-15m,a la palangrotte / dandinette - 10m,reelle,Epinephelus fasciatus,serranidae,perciforme
+12,merou chinois (merou aile noire),blackfin grouper,1,<1,maurice noel 2016 palangrotte corail 10-15m,a la palangrotte / dandinette - 10m,reelle,Cephalopholis nigripinnis,serranidae,perciforme
+13,"carangine, ou Capitaine strie, vivaneau dore",Gold-lined seabream,1,<1,maurice noel 2016 palangrotte corail 10-15m,a la palangrotte / dandinette - 10m,reelle,Gnathodentex aureolineatus,Lethrinidae,spariformes
+14,Capucin barberin,Dotdash goatfish,1,<1,maurice noel 2016 palangrotte corail 10-15m,a la palangrotte / dandinette - 10m,reelle,Parupeneus barberinus,mullidae,perciforme
+15,"Cateau-la-mer, poisson-perroquet",checkerboard wrasse possible ?,1,<1,maurice noel 2016 palangrotte corail 10-15m,a la palangrotte / dandinette - 10m,reelle,Chlorurus sordidus,scaridae,perciforme
+16,Selar queue jaune - Atule mate,yellowtail scad,3,1-2,Thailande 2024,a la palangrotte / dandinette - 10m,reelle,"Atule mate, Cuvier 1833",carangidae,carangiforme
+17,scomberoides pelagicus,Deep bodied queenfish,5,3-5,Thailande 2024,a la palangrotte / dandinette - 10m,reelle,scomperoides pelagicus,carangidae,carangiforme
+18,scomberoides tala,Barred queenfish,4,3-5,Thailande 2024,a la palangrotte / dandinette - 10m,reelle,scomberoides tala,carangidae,carangiforme
+19,scomberoides commersonnianus,talang queenfish,4,3-5,Thailande 2024,a la palangrotte / dandinette - 10m,reelle,scomberoides commersonnianus,carangidae,carangiforme
+20,Trevally scad,duskyfin crevalle,2,1-2,Thailande 2024,a la palangrotte / dandinette - 10m,reelle,alepes vari,carangidae,carangiforme
+21,"Vivaneau de russell, vivaneau raye pale",Russell's snapper,1,1-2,Thailande 2024,a la palangrotte / dandinette - 10m,reelle,Lutjanus russellii,lutjanidae,perciforme
+22,Lutjanus lutjanus,Big eye snapper,5,1-2,Thailande 2024,a la palangrotte / dandinette - 10m,reelle,lutjanus lutjanus,lutjanidae,perciforme
+23,Lutjanus vitta,Brownstripe snapper,2,1-2,Thailande 2024,a la palangrotte / dandinette - 10m,reelle,lutjanus vitta,lutjanidae,perciforme
+24,Notchedfin threadfin bream,Notchedfin threadfin bream,1,1-2,Thailande 2024,a la palangrotte / dandinette - 10m,reelle,Nemipterus peronii,nemipteridae,Acanthuriformes
+25,"Merou areolate, merou areole, merou tachete, vieille",Yellow-spotted grouper,1,1-2,Thailande 2024,a la palangrotte / dandinette - 10m,reelle,Epinephelus areolatus,serranidae,perciforme
+26,Merou longues ailes,Longfin grouper,1,<1,Thailande 2024,a la palangrotte / dandinette - 10m,reelle,Epinephelus quoyanus,serranidae,perciforme
+27,Grand Barracuda de thailande a confirmer,Great barracuda,1,8,Thailande 2024,a la palangrotte / dandinette - 10m,reelle,Sphyraena barracuda,sphyraenidae,istiophoriforme
+28,Barracuda a queue jaune,pickhanlde barracuda,1,6,Thailande 2024,a la palangrotte / dandinette - 10m,reelle,Sphyraena jello,sphyraenidae,istiophoriforme
