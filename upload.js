@@ -1,6 +1,5 @@
 const admin = require('firebase-admin');
 const fs = require('fs');
-const path = require('path');
 const Papa = require('papaparse');
 
 const serviceAccount = require('./serviceAccountKey.json');
@@ -10,10 +9,8 @@ admin.initializeApp({
 });
 
 const db = admin.firestore();
-const bucket = admin.storage().bucket();
 
 const CSV_PATH = './data/species.csv';
-const IMAGES_DIR = './data/images';
 
 const regions = [
   { csv: 'Amerique du Nord', folder: 'Amerique du Nord' },
@@ -29,12 +26,29 @@ const regions = [
 ];
 
 async function startUpload() {
+  // 1. Load all existing docs into a lookup map by lowercase name
+  console.log('Loading existing Firestore documents...');
+  const snapshot = await db.collection('species').get();
+  const existingByName = {};
+  snapshot.forEach(doc => {
+    const data = doc.data();
+    const key = data.name?.trim().toLowerCase();
+    if (key) {
+      // If multiple docs share a name, store as array
+      if (!existingByName[key]) existingByName[key] = [];
+      existingByName[key].push({ id: doc.id, data });
+    }
+  });
+  console.log(`Found ${snapshot.size} existing documents.\n`);
+
+  // 2. Parse CSV
   const csvFile = fs.readFileSync(CSV_PATH, 'utf8');
   const { data } = Papa.parse(csvFile, { header: false, skipEmptyLines: true });
 
-  let currentFolder = '';
   let currentRegionName = '';
-  let uploadCount = 0;
+  let updated = 0;
+  let created = 0;
+  let skipped = 0;
 
   for (const row of data.slice(1)) {
     let colA = row[0]?.trim() || '';
@@ -49,36 +63,20 @@ async function startUpload() {
     const family = row[9]?.trim() || 'Unknown';
     const order = row[10]?.trim() || 'Unknown';
 
-    if (!name) continue;
+    if (!name) { skipped++; continue; }
 
+    // Detect region
     const foundRegion = regions.find(r => colA.toLowerCase().includes(r.csv.toLowerCase()));
     if (foundRegion) {
-      currentFolder = foundRegion.folder;
       currentRegionName = foundRegion.csv;
       colA = '1';
     }
 
     const speciesId = colA;
-    const cleanId = speciesId.replace(/\./g, '').toLowerCase();
-    let imageUrls = [];
+    const nameKey = name.trim().toLowerCase();
 
-    if (photoType === 'reelle' && currentFolder) {
-      const folderPath = path.join(IMAGES_DIR, currentFolder);
-      if (fs.existsSync(folderPath)) {
-        const files = fs.readdirSync(folderPath);
-        const matchedFiles = files.filter(f => new RegExp(`^${cleanId}(\\s|\\.|_|$)`, 'i').test(f));
-        for (const file of matchedFiles) {
-          const localPath = path.join(folderPath, file);
-          const destination = `species/${currentFolder}/${file}`;
-          await bucket.upload(localPath, { destination });
-          const [url] = await bucket.file(destination).getSignedUrl({ action: 'read', expires: '03-01-2030' });
-          imageUrls.push(url);
-        }
-      }
-    }
-
-    await db.collection('species').add({
-      name,
+    // New fields to merge (won't touch images or hasImages)
+    const newFields = {
       englishName,
       scientificName,
       speciesId,
@@ -90,16 +88,35 @@ async function startUpload() {
       locationDetails,
       fishingTechnique,
       photoSource: photoType === 'web' ? 'web' : 'reelle',
-      images: imageUrls,
-      hasImages: imageUrls.length > 0,
-      timestamp: admin.firestore.FieldValue.serverTimestamp(),
-    });
+    };
 
-    uploadCount++;
-    console.log(`[${photoType.toUpperCase()}] ${uploadCount}. ${name} (${englishName}) — ${currentRegionName} — ${family}/${order}`);
+    // 3. Check if doc already exists
+    const matches = existingByName[nameKey];
+
+    if (matches && matches.length > 0) {
+      // Update the first match, merge so images stay untouched
+      const docId = matches[0].id;
+      await db.collection('species').doc(docId).update(newFields);
+      updated++;
+      console.log(`[UPDATED] ${name} — added ${Object.keys(newFields).length} fields`);
+    } else {
+      // No match — create new doc (no images since they weren't uploaded before)
+      await db.collection('species').add({
+        name,
+        ...newFields,
+        images: [],
+        hasImages: false,
+        timestamp: admin.firestore.FieldValue.serverTimestamp(),
+      });
+      created++;
+      console.log(`[CREATED] ${name} — new species`);
+    }
   }
 
-  console.log(`\nDone! ${uploadCount} species uploaded.`);
+  console.log(`\n--- Done! ---`);
+  console.log(`Updated: ${updated}`);
+  console.log(`Created: ${created}`);
+  console.log(`Skipped (empty rows): ${skipped}`);
 }
 
 startUpload();
