@@ -1,7 +1,9 @@
 'use client';
 
-import { ArrowLeft, MapPin, Tag, FlaskConical } from 'lucide-react';
+import { useState } from 'react';
+import { ArrowLeft, MapPin, Tag, FlaskConical, Weight, Navigation, Waves, Camera, Hash, Scale, Crosshair } from 'lucide-react';
 import ImageSlideshow from './ImageSlideshow';
+import ImageLightbox from './ImageLightbox';
 import { Species } from '@/types/species';
 
 interface Props {
@@ -11,87 +13,93 @@ interface Props {
 }
 
 export default function FishDetail({ fish, onBack, onFilter }: Props) {
-  const details = [
-    { label: 'Scientific Name', value: fish.scientificName, italic: true },
-    { label: 'English Name', value: fish.englishName },
-    { label: 'Quantity Caught', value: fish.quantity },
-    { label: 'Common Weight (lb)', value: fish.commonWeight },
-    { label: 'Location / When', value: fish.locationDetails },
-    { label: 'Fishing Technique', value: fish.fishingTechnique },
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+
+  const rows = [
+    { icon: <Hash size={13} />,       label: 'Scientific Name',    value: fish.scientificName, italic: true },
+    { icon: <Tag size={13} />,        label: 'English Name',       value: fish.englishName },
+    { icon: <Crosshair size={13} />,  label: 'Quantity Caught',    value: fish.quantity },
+    { icon: <Scale size={13} />,      label: 'Weight (lb)',        value: fish.commonWeight },
+    { icon: <Navigation size={13} />, label: 'Location / When',    value: fish.locationDetails },
+    { icon: <Waves size={13} />,      label: 'Technique',          value: fish.fishingTechnique },
+    { icon: <Camera size={13} />,     label: 'Photo Source',       value: fish.photoSource },
   ].filter(d => d.value);
 
   return (
-    <div className="max-w-4xl mx-auto">
-      <button
-        onClick={onBack}
-        className="flex items-center gap-2 text-slate-500 hover:text-slate-800 text-sm font-medium mb-6 transition-colors"
-      >
-        <ArrowLeft size={16} />
-        Back to explorer
+    <div className="max-w-3xl mx-auto">
+      {/* Lightbox */}
+      {lightboxIndex !== null && fish.images?.length > 0 && (
+        <ImageLightbox
+          images={fish.images}
+          startIndex={lightboxIndex}
+          name={fish.name}
+          onClose={() => setLightboxIndex(null)}
+        />
+      )}
+
+      {/* Back */}
+      <button onClick={onBack} className="inline-flex items-center gap-2 text-slate-400 hover:text-slate-700 text-sm font-medium mb-5 group transition-colors">
+        <ArrowLeft size={15} className="group-hover:-translate-x-0.5 transition-transform" />
+        Back
       </button>
 
-      <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden">
-        <ImageSlideshow images={fish.images} name={fish.name} className="h-72 sm:h-96" />
+      <div className="bg-white rounded-xl border border-slate-200/60 overflow-hidden">
+        {/* Hero image — clickable to lightbox */}
+        <ImageSlideshow
+          images={fish.images}
+          name={fish.name}
+          className="h-64 sm:h-[400px]"
+          onImageClick={(i) => setLightboxIndex(i)}
+        />
 
-        <div className="p-6 sm:p-8">
-          <div className="flex items-start justify-between gap-4 mb-1">
-            <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 capitalize">
-              {fish.name}
-            </h1>
-            <span
-              className={`shrink-0 px-3 py-1 rounded-full text-[10px] font-bold tracking-wider uppercase ${
-                fish.photoSource === 'web'
-                  ? 'bg-amber-100 text-amber-700'
-                  : 'bg-emerald-500 text-white'
-              }`}
-            >
-              {fish.photoSource}
-            </span>
-          </div>
-
+        <div className="p-5 sm:p-7">
+          {/* Title */}
+          <h1 className="text-xl sm:text-2xl font-bold text-slate-900 capitalize tracking-tight leading-tight">
+            {fish.name}
+          </h1>
           {fish.scientificName && (
-            <p className="text-sm text-slate-400 italic mb-6">{fish.scientificName}</p>
+            <p className="text-sm text-slate-400 italic mt-0.5">{fish.scientificName}</p>
           )}
 
-          {/* Clickable filter tags */}
-          <div className="flex flex-wrap gap-2 mb-8">
-            <button
-              onClick={() => { onFilter('region', fish.region); onBack(); }}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-blue-50 text-blue-600 text-xs font-semibold border border-blue-100 hover:bg-blue-100 transition-colors"
-            >
-              <MapPin size={12} /> {fish.region}
-            </button>
+          {/* Taxonomy — clean text links, not capsules */}
+          <div className="flex items-center gap-4 mt-4 text-[12px] font-medium">
+            {fish.region && (
+              <button onClick={() => { onFilter('region', fish.region); onBack(); }} className="text-blue-600 hover:underline flex items-center gap-1">
+                <MapPin size={12} /> {fish.region}
+              </button>
+            )}
             {fish.family && fish.family !== 'unknown' && (
-              <button
-                onClick={() => { onFilter('family', fish.family); onBack(); }}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-50 text-slate-600 text-xs font-semibold border border-slate-200 hover:bg-slate-100 transition-colors"
-              >
+              <button onClick={() => { onFilter('family', fish.family); onBack(); }} className="text-slate-600 hover:underline flex items-center gap-1">
                 <Tag size={12} /> {fish.family}
               </button>
             )}
             {fish.order && fish.order !== 'unknown' && (
-              <button
-                onClick={() => { onFilter('order', fish.order); onBack(); }}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-violet-50 text-violet-600 text-xs font-semibold border border-violet-100 hover:bg-violet-100 transition-colors"
-              >
+              <button onClick={() => { onFilter('order', fish.order); onBack(); }} className="text-slate-600 hover:underline flex items-center gap-1">
                 <FlaskConical size={12} /> {fish.order}
               </button>
             )}
           </div>
 
-          {/* Info grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {details.map((d) => (
-              <div key={d.label} className="bg-slate-50 rounded-xl p-4 border border-slate-100">
-                <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1">
-                  {d.label}
-                </p>
-                <p className={`text-sm text-slate-700 ${d.italic ? 'italic' : ''}`}>
-                  {d.value}
-                </p>
-              </div>
-            ))}
-          </div>
+          {/* Info table — encyclopedic style */}
+          {rows.length > 0 && (
+            <table className="w-full mt-6 text-sm">
+              <tbody>
+                {rows.map((r, i) => (
+                  <tr key={r.label} className={i < rows.length - 1 ? 'border-b border-slate-100' : ''}>
+                    <td className="py-3 pr-4 text-slate-400 font-medium text-xs whitespace-nowrap align-top w-[160px]">
+                      <div className="flex items-center gap-2">
+                        <span className="text-slate-300">{r.icon}</span>
+                        {r.label}
+                      </div>
+                    </td>
+                    <td className={`py-3 text-slate-700 ${r.italic ? 'italic' : ''}`}>
+                      {r.value}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          )}
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 'use client';
 
-import { X, SlidersHorizontal } from 'lucide-react';
+import { X } from 'lucide-react';
 
 interface Props {
   filters: { type: string; value: string }[];
@@ -8,35 +8,20 @@ interface Props {
   onClearAll: () => void;
 }
 
-const colors: Record<string, string> = {
-  region: 'bg-blue-50 text-blue-700 border-blue-200',
-  family: 'bg-slate-50 text-slate-700 border-slate-200',
-  order: 'bg-violet-50 text-violet-700 border-violet-200',
-};
-
 export default function ActiveFilters({ filters, onRemove, onClearAll }: Props) {
   if (filters.length === 0) return null;
 
   return (
-    <div className="flex items-center gap-2 flex-wrap">
-      <SlidersHorizontal size={14} className="text-slate-400" />
+    <div className="flex items-center gap-2 flex-wrap text-xs">
+      <span className="text-slate-400 font-medium">Filtered by:</span>
       {filters.map(f => (
-        <button
-          key={f.type}
-          onClick={() => onRemove(f.type)}
-          className={`flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium border ${
-            colors[f.type] || 'bg-slate-50 text-slate-600 border-slate-200'
-          } hover:opacity-70 transition-opacity`}
-        >
-          {f.type}: {f.value}
-          <X size={12} />
+        <button key={f.type} onClick={() => onRemove(f.type)} className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-slate-100 text-slate-600 font-medium hover:bg-slate-200 transition-colors">
+          <span className="text-slate-400">{f.type}:</span> {f.value}
+          <X size={10} className="ml-0.5 text-slate-400" />
         </button>
       ))}
-      <button
-        onClick={onClearAll}
-        className="text-xs text-slate-400 hover:text-red-500 font-medium transition-colors"
-      >
-        Clear all
+      <button onClick={onClearAll} className="text-slate-400 hover:text-red-500 font-medium transition-colors underline">
+        clear
       </button>
     </div>
   );
