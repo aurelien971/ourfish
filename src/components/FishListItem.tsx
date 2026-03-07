@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useRef, useEffect } from 'react';
 import { MapPin, Fish as FishIcon } from 'lucide-react';
 import { Species } from '@/types/species';
 
@@ -9,12 +10,36 @@ interface Props {
 }
 
 export default function FishListItem({ fish, onClick }: Props) {
+  const [loaded, setLoaded] = useState(false);
+  const [visible, setVisible] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) { setVisible(true); observer.disconnect(); } },
+      { rootMargin: '100px' }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <div onClick={onClick} className="flex items-center gap-4 bg-white rounded-lg border border-slate-200/60 p-3 cursor-pointer hover:shadow-md hover:border-slate-300 transition-all group">
-      {/* Thumbnail */}
+    <div ref={ref} onClick={onClick} className="flex items-center gap-4 bg-white rounded-lg border border-slate-200/60 p-3 cursor-pointer hover:shadow-md hover:border-slate-300 transition-all group">
       <div className="w-16 h-16 rounded-lg overflow-hidden bg-slate-100 shrink-0">
-        {fish.images?.length > 0 ? (
-          <img src={fish.images[0]} alt={fish.name} className="w-full h-full object-cover" />
+        {fish.images?.length > 0 && visible ? (
+          <>
+            {!loaded && <div className="w-full h-full bg-slate-100" />}
+            <img
+              src={fish.images[0]}
+              alt={fish.name}
+              loading="lazy"
+              decoding="async"
+              className={`w-full h-full object-cover transition-opacity duration-200 ${loaded ? 'opacity-100' : 'opacity-0'}`}
+              onLoad={() => setLoaded(true)}
+            />
+          </>
         ) : (
           <div className="w-full h-full flex items-center justify-center">
             <FishIcon size={20} className="text-slate-300" />
@@ -22,7 +47,6 @@ export default function FishListItem({ fish, onClick }: Props) {
         )}
       </div>
 
-      {/* Info */}
       <div className="min-w-0 flex-1">
         <div className="flex items-baseline gap-2">
           <h3 className="text-sm font-semibold text-slate-900 capitalize truncate group-hover:text-blue-600 transition-colors">{fish.name}</h3>
@@ -40,7 +64,6 @@ export default function FishListItem({ fish, onClick }: Props) {
         </div>
       </div>
 
-      {/* Source badge */}
       <span className={`shrink-0 px-2 py-0.5 rounded text-[9px] font-bold uppercase tracking-wider ${
         fish.photoSource === 'web' ? 'bg-amber-50 text-amber-600' : 'bg-emerald-50 text-emerald-600'
       }`}>

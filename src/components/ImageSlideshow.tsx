@@ -1,7 +1,10 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Fish, ImageOff } from 'lucide-react';
+
+// Global cache — survives component re-renders/remounts
+const loadedCache = new Set<string>();
 
 interface Props {
   images: string[];
@@ -12,8 +15,31 @@ interface Props {
 
 export default function ImageSlideshow({ images, name, className = 'h-52', onImageClick }: Props) {
   const [current, setCurrent] = useState(0);
-  const [loaded, setLoaded] = useState<Record<number, boolean>>({});
+  const [loaded, setLoaded] = useState<Record<number, boolean>>(() => {
+    // Pre-fill from cache so already-seen images show instantly
+    const initial: Record<number, boolean> = {};
+    images?.forEach((url, i) => { if (loadedCache.has(url)) initial[i] = true; });
+    return initial;
+  });
   const [errored, setErrored] = useState<Record<number, boolean>>({});
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: '200px' }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
 
   const validImages = images?.filter((_, i) => !errored[i]) || [];
 
@@ -22,34 +48,42 @@ export default function ImageSlideshow({ images, name, className = 'h-52', onIma
     setCurrent(prev => (prev + dir + images.length) % images.length);
   }, [images?.length]);
 
-  if (validImages.length === 0) {
+  const handleLoad = useCallback((index: number) => {
+    if (images?.[index]) loadedCache.add(images[index]);
+    setLoaded(prev => ({ ...prev, [index]: true }));
+  }, [images]);
+
+if (!images || validImages.length === 0) {
     return (
-      <div className={`${className} w-full bg-gradient-to-br from-slate-50 to-slate-100 flex items-center justify-center`}>
+      <div ref={ref} className={`${className} w-full bg-slate-50 flex items-center justify-center`}>
         <div className="text-center opacity-50">
-          {images?.length > 0
-            ? <ImageOff className="w-7 h-7 text-slate-300 mx-auto mb-1.5" />
-            : <Fish className="w-7 h-7 text-slate-300 mx-auto mb-1.5" />
-          }
-          <span className="text-[10px] text-slate-400 font-medium block max-w-[120px] mx-auto leading-tight">{name}</span>
+          <Fish className="w-6 h-6 text-slate-300 mx-auto mb-1.5" />
+          <span className="text-[11px] text-slate-400 font-medium block">No image for this fish</span>
         </div>
       </div>
     );
   }
 
+  const isCached = loaded[current];
+
   return (
-    <div className={`relative ${className} w-full bg-slate-900 overflow-hidden group`}>
-      {!loaded[current] && <div className="absolute inset-0 bg-slate-100 animate-pulse" />}
+    <div ref={ref} className={`relative ${className} w-full bg-slate-100 overflow-hidden group`}>
+      {!isCached && <div className="absolute inset-0 bg-slate-100" />}
 
-      <img
-        src={images[current]}
-        alt={`${name} - ${current + 1}`}
-        className={`w-full h-full object-cover transition-opacity duration-300 ${onImageClick ? 'cursor-zoom-in' : ''} ${loaded[current] ? 'opacity-100' : 'opacity-0'}`}
-        onLoad={() => setLoaded(prev => ({ ...prev, [current]: true }))}
-        onError={() => setErrored(prev => ({ ...prev, [current]: true }))}
-        onClick={(e) => { if (onImageClick) { e.stopPropagation(); onImageClick(current); } }}
-      />
+      {isVisible && (
+        <img
+          src={images[current]}
+          alt={`${name} - ${current + 1}`}
+          loading="lazy"
+          decoding="async"
+          className={`w-full h-full object-cover ${onImageClick ? 'cursor-zoom-in' : ''} ${isCached ? 'opacity-100' : 'opacity-0 transition-opacity duration-200'}`}
+          onLoad={() => handleLoad(current)}
+          onError={() => setErrored(prev => ({ ...prev, [current]: true }))}
+          onClick={(e) => { if (onImageClick) { e.stopPropagation(); onImageClick(current); } }}
+        />
+      )}
 
-      {images.length > 1 && (
+      {images.length > 1 && isCached && (
         <>
           <button onClick={(e) => go(-1, e)} className="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/90 text-slate-700 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-white shadow-sm">
             <ChevronLeft size={16} />
